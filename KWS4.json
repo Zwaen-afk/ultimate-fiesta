@@ -40,7 +40,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":66,
          "x":0,
          "y":0
@@ -52,7 +52,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":66,
          "x":0,
          "y":0
@@ -76,7 +76,7 @@
          "name":"Grundriss",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":66,
          "x":0,
          "y":0
@@ -88,7 +88,7 @@
          "name":"Boden",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":66,
          "x":0,
          "y":0
@@ -172,32 +172,324 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":64,
          "firstgid":1,
-         "source":"..\/MSH\/Unbenannt.tsx"
+         "image":"Unbenannt.png",
+         "imageheight":1442,
+         "imagewidth":2048,
+         "margin":0,
+         "name":"Unbenannt",
+         "spacing":0,
+         "tilecount":2880,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":8,
          "firstgid":2881,
-         "source":"..\/MSH\/floortileset_angepasst.tsx"
+         "image":"floortileset3.png",
+         "imageheight":272,
+         "imagewidth":272,
+         "margin":1,
+         "name":"floortileset3",
+         "spacing":2,
+         "tilecount":64,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":7,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }, 
         {
+         "columns":50,
          "firstgid":2945,
-         "source":"..\/MSH\/2_SiemensVillaTiles.tsx"
+         "image":"1_SiemensVillaTiles.png",
+         "imageheight":1600,
+         "imagewidth":1600,
+         "margin":0,
+         "name":"1_SiemensVillaTiles",
+         "spacing":0,
+         "tilecount":2500,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":661,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":662,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":663,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":664,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":711,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":712,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":713,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":714,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":761,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":762,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":763,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":764,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":811,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":812,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":813,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":814,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":861,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":862,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":863,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":864,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":911,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":912,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":913,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":914,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }],
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":5445,
-         "source":"..\/MSH\/office_1.tsx"
+         "image":"tilesets_deviant_milkian_1.png",
+         "imageheight":544,
+         "imagewidth":544,
+         "margin":1,
+         "name":"tilesets_deviant_milkian_1",
+         "spacing":2,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":5,
          "firstgid":5701,
-         "source":"..\/MSH\/USM_Moebel.tsx"
+         "image":"USM_Moebel.png",
+         "imageheight":256,
+         "imagewidth":160,
+         "margin":0,
+         "name":"USM_Moebel",
+         "spacing":0,
+         "tilecount":40,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":5741,
-         "source":"..\/MSH\/kitchen.tsx"
+         "image":"Kitchen.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"Kitchen",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ffffff"
         }, 
         {
+         "columns":50,
          "firstgid":5997,
-         "source":"..\/MSH\/HMU-Tiles.tsx"
+         "image":"HMU-Tiles.png",
+         "imageheight":1600,
+         "imagewidth":1600,
+         "margin":0,
+         "name":"HMU-Tiles",
+         "spacing":0,
+         "tilecount":2500,
+         "tileheight":32,
+         "tilewidth":32,
+         "transparentcolor":"#ffffff"
         }],
  "tilewidth":32,
  "type":"map",
