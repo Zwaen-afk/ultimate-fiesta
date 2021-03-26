@@ -185,7 +185,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/MSH\/floortileset3.tsx"
+         "source":"floortileset3.tsx"
         }, 
         {
          "columns":14,
@@ -202,23 +202,23 @@
         }, 
         {
          "firstgid":247,
-         "source":"..\/MSH\/office_1.tsx"
+         "source":"office_1.tsx"
         }, 
         {
          "firstgid":503,
-         "source":"..\/MSH\/floortileset2.tsx"
+         "source":"floortileset2.tsx"
         }, 
         {
          "firstgid":567,
-         "source":"..\/MSH\/1_SiemensVillaTiles.tsx"
+         "source":"1_SiemensVillaTiles.tsx"
         }, 
         {
          "firstgid":3067,
-         "source":"..\/MSH\/USM_Moebel.tsx"
+         "source":"USM_Moebel.tsx"
         }, 
         {
          "firstgid":3107,
-         "source":"..\/MSH\/kitchen.tsx"
+         "source":"kitchen.tsx"
         }],
  "tilewidth":32,
  "type":"map",
